@@ -1,8 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-            System.out.println("Hallo Kata2");
             NumberToLCDConverter numberToLCDConverter = new NumberToLCDConverter();
-            String asdf = numberToLCDConverter.numberToLCD(1234567890);
-            System.out.println(asdf);
+            System.out.println(numberToLCDConverter.numberToLCD(1234567890, 1, 1));
+            System.out.println(numberToLCDConverter.numberToLCD(1234567890, 1, 3));
+            System.out.println(numberToLCDConverter.numberToLCD(1234567890, 3, 1));
+            System.out.println(numberToLCDConverter.numberToLCD(1234567890, 5, 5));
+            System.out.println(numberToLCDConverter.numberToLCD(1234567890, 1, 1));
     }
 }
